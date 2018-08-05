@@ -1,0 +1,32 @@
+//Newton Second Law//
+// STORE "mass" with value of "600kg"//
+//STORE "acceleration" with the value of "2m/s2"//
+//STORE "force" with no values.//
+  //CALCULATE "mass" times "acceleration"//
+  //SET "force" value as the calculation result//
+//DISPLAY "force"//
+
+
+//Tahun Kabisat//
+//
+
+
+//Laundry//
+//STORE "Laundry" with any values.//
+//IF "Laundry" less than 0 //
+  //DISPLAY "INSERT_MORE"//
+//ELSE IF "Laundry" equal to  0//
+  //DISPLAY "START_MACHINE"//
+
+
+//Periksa Kuku//
+//STORE "limit" equal to 40
+//STORE "shortKuku" equal to "true"
+  //IF "shortKuku" is "true"
+    DISPLAY "reward"
+  //ELSE "shortKuku" is "false"
+    //DISPLAY "punishment"
+//STORE "done" equal to "shortKuku"
+//STORE 'nextStudent' equal to 'done'
+  //IF "done" is "true"
+    //DO "nextStudent"
