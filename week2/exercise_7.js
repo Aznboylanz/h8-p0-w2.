@@ -1,8 +1,8 @@
-for(var i = 0; i < 6; i++){
+for(var i = 0; i < 5; i++){
   console.log('*')
 }
 
-/*var row2 = 5;
+var row2 = 5;
 for(var i = 0; i < row2 ; i++){
   var symbol = '';
   for (var j = 0; j < row2; j++){
