@@ -1,6 +1,6 @@
 var nama = 'Enter Name'
 var peran = 'Choose Character'
-
+  
 //name conditions//
 if (nama === 'Enter Name'){
   console.log('Please enter a "NAME"');

@@ -1,0 +1,42 @@
+Newton's Second Law
+`Store` 'area' equal to 600kg; 
+`Store` 'acceleration' equal to  2 m/;
+`Store` 'force' equal to 'accelration' times 'area';
+`Display` 'force'
+
+var area = 600kg;
+var acceleration = 2 m/s;
+var force = area * acceleration;
+
+
+Leap Year
+`Store` 'year' with any value;
+`IF` 'year' is divisible by 4 and does not run out of 100;
+    `Display` 'Not a leap year';
+`IF` 'year' is divisible by 4 and is divisble by 100;
+    `Display` 'Leap Year'
+
+
+Laundry Day
+`Store` 'Load' with 0;
+    `While` 'Load' is less than 20;
+        `Add` 'Load' by 1;
+`Display` "start"
+
+Nail Check
+`Store` 'nails' equal to 1 ;
+`Store` 'condition' equal to "trimmed";
+    `While` 'nail' is less than 41;
+        `If` 'condition' equals "trimmed";
+            `Display` "Reward!";
+        `If` 'condition' does NOT equal "trimmed';
+            `Display` "Punishment!";
+    `Add` 'nail' by 1;            
+
+
+
+
+
+
+
+
