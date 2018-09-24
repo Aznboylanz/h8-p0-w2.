@@ -31,7 +31,8 @@ Nail Check
             `Display` "Reward!";
         `If` 'condition' does NOT equal "trimmed';
             `Display` "Punishment!";
-    `Add` 'nail' by 1;            
+    `Add` 'nail' by 1;     
+    `Display` "FINISH!"       
 
 
 
