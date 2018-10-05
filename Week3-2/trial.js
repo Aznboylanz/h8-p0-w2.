@@ -8,12 +8,16 @@
 //     }    
 // }
 
-var number = ['7', '2', '3' , '4' , '5', '1']
-var result = 10;
-for(var i = 0 ; i < number.length; i++){
-    if(result < number[i]){
-        console.log(result)
-    }else if( result > number[i])
-    result = number[i]
-    
-}console.log(result)
+var number = ['71', '210', '3' , '45' , '8', '1010']
+console.log(number)
+var numberArray = Number(number);
+// console.log(numberArray)
+for(var i = 0 ; i < numberArray.length ; i++){
+    var trial = 0;
+    if(numberArray[i] < numberArray[i+1]){
+        trial = numberArray[i] ;
+        numberArray[i] = numberArray[i+1];
+        numberArray[i+1] = trial    
+    // }
+}
+// console.log(typeof umberArray)
